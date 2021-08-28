@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0%;
+
+}
+
+
+
+.navigation{
+    margin-top:25px;
+    font-family: var(--font1);
+    /*height: 74px;*\
+    /*background-color:red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.nav-left{
+    font-size: 35px;
+    display: flex;
+}
+.nav-left span{
+    font-size: 35px;
+    padding-top: 10px;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 22px;
+    font-weight:bold;
+}
+.nav-left ul li{
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in-out;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+.nav-left ul li a:hover{
+    color: var(--main-bg-color);
+    font-weight: bolder;
+}
+.content{
+    height: 256px;
+    /*background-color: rgb(225, 225, 243);*/
+    display: flex;
+    margin-top: 32px;
+    padding:9px;
+    position: relative;
+}
+.content::after{
+    content:"";
+    background-image: url('../img/home.jpg');
+    position: absolute;
+    width: 1334px;
+    height: inherit;
+    opacity: 0.35;
+
+}
+.content-left{
+    font-family: var(--font1); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    z-index: 1;
+
+}
+.content-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.content-right img{
+    height: 355px;
+    border: 2px solid black;
+    border-radius: 200px;
+
+}
+.home-articles{
+    padding-top: 12px;
+    padding: 18px;
+    background-color: rgb(248, 239, 239, 1);
+    margin-top: 23px;
+
+}
+.home-article{
+    display: flex;
+    padding: 25px;
+    margin: 25px;
+
+
+}
+.home-article-content{
+    align-self: center;
+    padding: 25px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+}
+.home-article img{
+    width: 300px;
+}
+footer{
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+.footer span{
+    margin-top: 0.1rem;
+    display: block;
+    font-family: var(--font2);
+    letter-spacing: 2px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
